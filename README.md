@@ -1,5 +1,9 @@
 # Midea Air Conditioners to Home Assistant
 
+**Update July 2022**: I recommend trying this custom component instead: [midea_ac_lan](https://github.com/georgezhao2010/midea_ac_lan). The automatic configuration takes less than a minute and you will not have to get the token and key manually ([hopefully](https://github.com/georgezhao2010/midea_ac_lan#config-manually)). It installs with [Home Assistant Community Store](https://hacs.xyz/) (HACS), if you use that. Also the instructions mention Home Assistant and the Air Conditioner needing to be on the same sub-network, however I have mine on different subnets and it auto-discovered with no issue!
+
+----
+
 This guide was written 18th of August 2021.
 
 [Home Assistant][HA] is a tool for combining all your "smart" appliances, allowing you to use them on platforms they are not officially supported (such as HomeKit). It runs as a small python server with a web interface (or mobile app) for configuration and display of your devices and local or remote data.
